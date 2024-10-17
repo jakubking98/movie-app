@@ -1,0 +1,247 @@
+/* Globalne style */
+body {
+  background-color: #161616;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Lista filmów */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* TitleBox */
+.TilteBox {
+  width: calc(100% - 50px);
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 3px solid #06a79b;
+}
+
+/* Linki */
+.link {
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  height: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #161616;
+  border: 3px solid #06a79b;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Sekcja filmów */
+.box {
+  width: 100%;
+  margin: 30px 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* Karty filmu */
+.movie-card {
+  width: 200px;
+  border: 3px solid #06a79b;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  overflow: hidden; /* Ukrywa nadmiarowe treści */
+  background-color: #fff; /* Białe tło dla karty */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Lekki cień dla karty */
+  transition: transform 0.2s; /* Efekt przy przejeżdżaniu myszką */
+  text-decoration: none;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Powiększa kartę przy najechaniu */
+}
+
+.movie-card img {
+  width: 100%; /* Obrazek wypełnia całą szerokość karty */
+}
+
+.movie-card h3 {
+  text-wrap: wrap;
+  height: 35px;
+  margin: 15px 0;
+  color: #06a79b;
+  text-decoration: none;
+}
+
+.movie-card p {
+  margin: 10px 10px; /* Odstępy dla opisów */
+  font-size: 18px;
+  color: #06a79b;
+  text-decoration: none;
+}
+
+/* Przycisk dodawania */
+.buttonAdd {
+  padding: 10px;
+  border: 1px solid #06a79b;
+  background-color: #06a79b;
+  font-size: 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Sekcje wyszukiwania i popularnych filmów */
+.search-section,
+.popular-section {
+  margin-bottom: 40px; /* Dodaje odstęp między sekcjami */
+  padding: 30px 15px;
+  border: 3px solid #06a79b;
+  border-radius: 8px; /* Zaokrąglenie rogów */
+  background-color: #f9f9f9; /* Tło dla sekcji */
+}
+
+.searchText {
+  margin: 0 0 30px 0; /* Dodaje odstęp pod nagłówkiem */
+  font-size: 25px;
+}
+
+.search {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 3px solid #06a79b;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 3px solid #06a79b;
+}
+
+.searchBox {
+  margin: 30px 0;
+}
+
+/* Szczegóły filmu */
+.movie-detail {
+  margin-bottom: 40px; /* Dodaje odstęp między sekcjami */
+  padding: 30px 15px;
+  border: 1px solid #ccc; /* Ramka wokół sekcji */
+  border-radius: 8px; /* Zaokrąglenie rogów */
+  background-color: #f9f9f9; /* Tło dla sekcji */
+  border: 3px solid #06a79b;
+}
+
+.movie-detail img {
+  width: 300px; /* Ustal szerokość plakatu */
+}
+
+/* Lista aktorów */
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Odstęp górny */
+}
+
+.actor-card {
+  margin: 10px; /* Odstęp między aktorami */
+  text-align: center;
+  border: 3px solid #161616;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #161616;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.actor-image {
+  width: 100px; /* Ustal szerokość zdjęcia aktora */
+  border-radius: 0;
+}
+
+/* Zwiastun */
+.trailer {
+  margin: 20px auto;
+  padding: 30px 50px 50px 50px;
+  width: 900px;
+  background-color: #161616;
+  border-radius: 8px;
+}
+
+.trailer iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.titleTrailer {
+  color: white;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+/* Tytuł filmu */
+.movieTitle {
+  font-size: 30px;
+  color: #06a79b;
+  text-decoration: underline;
+}
+
+/* Ulubione filmy */
+.favorites-section {
+  margin-bottom: 40px; /* Dodaje odstęp między sekcjami */
+  padding: 30px 15px;
+  border: 1px solid #ccc; /* Ramka wokół sekcji */
+  border-radius: 8px; /* Zaokrąglenie rogów */
+  background-color: #f9f9f9; /* Tło dla sekcji */
+  border: 3px solid #06a79b;
+}
+
+.favoriteText {
+  margin: 0 0 30px 0; /* Dodaje odstęp pod nagłówkiem */
+  font-size: 25px;
+}
+
+/* Dodatkowe style */
+.decoration {
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.text {
+  color: #161616;
+  font-size: 25px;
+  font-weight: 500;
+  width: 1000px;
+  margin: 15px auto;
+}
+
+.movie-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Umożliwia elastyczne układanie kart */
+  gap: 15px; /* Odstęp między kartami filmów */
+}
