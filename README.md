@@ -1,3 +1,24 @@
+**Movie App** to nowoczesna aplikacja webowa, która umożliwia użytkownikom łatwe przeglądanie filmów, korzystając z potężnego API The Movie Database (TMDb). Dzięki przyjaznemu interfejsowi oraz intuicyjnej nawigacji, użytkownicy mogą szybko znaleźć interesujące ich filmy i zapoznać się z ich szczegółami.
+
+Aplikacja prezentuje popularne filmy w przejrzystym układzie, umożliwiając użytkownikom szybkie odkrywanie tytułów, które zdobywają uznanie wśród widzów. Każdy film posiada dedykowaną stronę, na której znajdują się szczegółowe informacje, takie jak opis, obsada, plakat oraz zwiastun, co pozwala użytkownikom na łatwe zdobycie informacji o wybranym tytule.
+
+Dzięki funkcji wyszukiwania, użytkownicy mogą szybko odnaleźć interesujące filmy na podstawie tytułu. Dodatkowo, istnieje możliwość dodawania filmów do listy ulubionych, co pozwala na łatwy dostęp do wybranych tytułów w przyszłości. Aplikacja charakteryzuje się estetycznym designem oraz responsywnym układem, co zapewnia doskonałe wrażenia na różnych urządzeniach.
+
+Link do odpalenia: https://jakubking98.github.io/movie-app/
+
+**Movie App** is a modern web application that allows users to easily browse movies using the powerful API from The Movie Database (TMDb). With its user-friendly interface and intuitive navigation, users can quickly find movies of interest and explore their details.
+
+The application presents popular films in a clear layout, enabling users to quickly discover titles that are gaining recognition among viewers. Each movie has a dedicated page that features detailed information such as a description, cast, poster, and trailer, allowing users to easily access information about their selected titles.
+
+With the search function, users can quickly find interesting films based on the title. Additionally, there is an option to add movies to a favorites list, providing easy access to selected titles in the future. The application features an aesthetically pleasing design and a responsive layout, ensuring a great experience on various devices.
+
+You can check it out at: https://jakubking98.github.io/movie-app/
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
